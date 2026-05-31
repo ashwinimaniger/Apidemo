@@ -1,0 +1,13 @@
+{
+  "name": "apidemotests",
+  "version": "1.0.0",
+  "description": "Playwright API tests (GET, POST, PUT, DELETE) sample",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
